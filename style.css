@@ -1,0 +1,119 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS, cursive;
+	font-size: 18px;
+	text-align: center;
+	background-image: url('scotland.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.container {
+    max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.references-container {
+	width: 100%;
+	padding: 20px;
+}
+	
+h1 {
+    margin-bottom: 20px;
+    color: #123456;
+}
+
+.main-content {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.text-content {
+	width: 45%;
+	padding: 10px;
+}
+
+.text-content-references {
+	text-align: center;
+	width: 100;
+}
+
+.text-content-pens {
+	text-align: center;
+	width: 100;
+}
+	
+.image-content {
+	width: 45%;
+	padding: 10px;
+}
+
+.image-content img {
+	width: auto;
+	max-width: 100%;
+	max-height: 300px;
+	height: auto;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	display: block;
+}
+	
+.button-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-content button {
+    padding: 10px 20px;
+	font-family: Comic Sans MS, cursive;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.button-content button:hover {
+    background-color: #EEE1E1;
+}
+
+.goal-container {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	display: block;
+}
+
+.goal-image {
+	position: center;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.target {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border: none;
+	cursor: pointer;
+	transform:translateY(-50);
+}
+
+.target-left {
+    top: 50%;
+    left: calc(90% - 70px);
+    transform: translate(-50%, -50%);
+}
+
+.target-right {
+    top: 50%;
+    right: calc(90% - 70px);
+    transform: translate(50%, -50%);
+}
